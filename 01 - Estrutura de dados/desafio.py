@@ -7,7 +7,6 @@ def menu():
     [s]\tSacar
     [e]\tExtrato
     [nc]\tNova conta
-    [lc]\tListar contas
     [nu]\tNovo usuário
     [q]\tSair
     => """
@@ -147,6 +146,11 @@ def filtrar_usuario(cpf, usuarios):
     return usuario_filtrado[0] if usuario_filtrado else None
 
 main()
+
+
+
+
+
 
 
 
